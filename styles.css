@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css?family=Sanserif');
+
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: white;
+
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.nav ul{
+    margin: 0;
+}
+
+.nav li {
+    display: inline;
+}
+
+.nav a{
+    display: inline-block;
+    padding: 0.7em;
+    color: white;
+    text-decoration: none;
+
+}
+
+.main-nav{
+    text-align: right;
+    font-size: 1.1em;
+    font-weight: lighter;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+
+}
+
+.main-nav li{
+    margin:10px 0 ;
+}
+.nav a:hover{
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+ .main-header {
+    background-image: linear-gradient(to right,#158ff3,#5f1782);
+    background-size: cover;
+    background-blend-mode: multiply;
+    padding-bottom: 30px;
+}
+
+ p {
+     padding: 10px;
+     color: black;
+     font-family: Arial;
+     font-size: 16px;
+     margin: 10px;
+ }
+
+ .Title {
+     text-align: left;
+     margin: 0.3em 0 0;
+     font-size: 2em;
+     font-family: sans-serif;
+     font-weight: 300;
+     padding: 0;
+ }
+
+ .content-section{
+     margin: 1em;
+
+ }
+
+ .container{
+     max-width: 900px;
+     margin: 0 auto;
+     padding: 0 1.5em;
+ }
+
+ .section-header{
+     display: block;
+     margin-block-start: 0.5em;
+     margin-block-end: 0em;
+     margin-inline-start: 0px;
+     margin-inline-end: 0px;
+     font-family: sans-serif;
+     font-weight: normal;
+     color: black;
+     text-align: left;
+     font-size: 2em;
+
+ }
+
+ .about-image {
+     float: left;
+     height: 370px;
+     width: 300px;
+     margin: 15px;
+     border-radius: 0px;
+ }
+
+.about-image1 {
+    float: left;
+    height: 220px;
+    width: 300px;
+    margin: 15px;
+    border-radius: 0px;
+}
+
+.about-image2 {
+    float: left;
+    height: 300px;
+    width: 550px;
+    margin: 15px;
+    border-radius: 0px;
+}
+
+.about-image3 {
+    float: left;
+    height: 300px;
+    width: 550px;
+    margin: 15px;
+    border-radius: 0px;
+}
+
+.img{
+    text-align: left;
+    float: left;
+}
+
+#social-media{
+    background-color:rgb(116, 114, 231) ;
+    padding: 10px 0;
+
+}
+#social-media p{
+    margin: 0;
+    font-size: 36px;
+    font-weight: 600;
+    color:#fff;
+}
+
+
+.fa {
+    padding: 15px;
+    font-size: 10px;
+    width: 50px;
+    text-align: left;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+    transform: translateY(-10px);
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+.fa-pinterest {
+    background: #cb2027;
+    color: white;
+}
+.fa-google {
+    background: #dd4b39;
+    color: white;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+.fa-snapchat-ghost {
+    background: #fffc00;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+
