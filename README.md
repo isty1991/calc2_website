@@ -15,7 +15,7 @@ The following pages are created by the Akshat:
 1) Index.html
 2) ARPA
 3) Internet
-4) 
+
 The following pages are created by the Ishan: 
 1)Browser War
 2)End of Browser War
