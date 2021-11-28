@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="72042077-1537-4a57-8c8d-1707a21ace1e" name="Changes" comment="new website">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public_html/Calc_terms.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public_html/OOPS_Glossary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public_html/OOPs_Glossary_Part2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public_html/img/2356500969_4643e06905_b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public_html/img/5105348945_d763dbec33_b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public_html/img/footer.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public_html/styles.css" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="216Miadjh0WFf27PJ8Z9X3rX6wX" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ishan\WebstormProjects2\InternetHistory_Is601" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Docker.calc_web">
+    <configuration name="calc_web" type="docker-deploy" factoryName="docker-compose.yml" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="envFilePath" value="" />
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-compose.yml.apache: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="apache" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Docker.calc_web" />
+      <item itemvalue="Docker.docker-compose.yml.apache: Compose Deployment" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Docker.docker-compose.yml.apache: Compose Deployment" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="72042077-1537-4a57-8c8d-1707a21ace1e" name="Changes" comment="" />
+      <created>1637257223061</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1637257223061</updated>
+      <workItem from="1637257266556" duration="1209000" />
+      <workItem from="1637613523763" duration="1791000" />
+      <workItem from="1638039317392" duration="796000" />
+      <workItem from="1638045264004" duration="3673000" />
+      <workItem from="1638049799947" duration="4022000" />
+      <workItem from="1638057328681" duration="1213000" />
+      <workItem from="1638118299831" duration="2341000" />
+      <workItem from="1638123528144" duration="1796000" />
+      <workItem from="1638129599555" duration="665000" />
+      <workItem from="1638130294783" duration="749000" />
+    </task>
+    <task id="LOCAL-00001" summary="new website">
+      <created>1638129924619</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1638129924619</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="new website" />
+    <option name="LAST_COMMIT_MESSAGE" value="new website" />
+  </component>
+</project>
