@@ -1,19 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="72042077-1537-4a57-8c8d-1707a21ace1e" name="Changes" comment="new website">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public_html/Calc_terms.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public_html/OOPS_Glossary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public_html/OOPs_Glossary_Part2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public_html/img/2356500969_4643e06905_b.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public_html/img/5105348945_d763dbec33_b.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public_html/img/footer.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public_html/styles.css" afterDir="false" />
+    <list default="true" id="72042077-1537-4a57-8c8d-1707a21ace1e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/public_html/OOP_concepts.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public_html/Calc_terms.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +84,9 @@
       <workItem from="1638118299831" duration="2341000" />
       <workItem from="1638123528144" duration="1796000" />
       <workItem from="1638129599555" duration="665000" />
-      <workItem from="1638130294783" duration="749000" />
+      <workItem from="1638130294783" duration="2298000" />
+      <workItem from="1638132738110" duration="269000" />
+      <workItem from="1638133063955" duration="10221000" />
     </task>
     <task id="LOCAL-00001" summary="new website">
       <created>1638129924619</created>
@@ -101,7 +95,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638129924619</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="new website">
+      <created>1638131080747</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1638131080747</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -117,6 +118,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="new website" />
