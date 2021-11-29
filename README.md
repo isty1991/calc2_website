@@ -2,6 +2,6 @@
 
 #Azure Link: 
 
-[project2](http://historyofinternetis601.eastus.azurecontainer.io/index.html)
+[project2]()
 
 
