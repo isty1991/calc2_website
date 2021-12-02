@@ -66,6 +66,17 @@ p {
     margin: 10px;
 }
 
+br {
+    text-align: justify;
+    text-justify: inter-word;
+    letter-spacing: 1px;
+    padding: 10px;
+    color: white;
+    font-family: Arial;
+    font-size: 16px;
+    margin: 10px;
+}
+
 .Title {
     text-align: center;
     margin: 0.3em 0 0;
