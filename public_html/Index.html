@@ -14,10 +14,10 @@
                         <a class="nav-link " aria-current="page" href="index.html">Index</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="OOPS_Glossary.html">OOP Glossary Part2</a>
+                        <a class="nav-link" href="OOPS_Glossary.html">OOP Glossary</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="OOPs_Glossary_Part2.html">OOP Glossary Part2</a>
+                        <a class="nav-link" href="OOPs_Glossary_Part2.html">OOP Glossary_2</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="artclies.html">Articles</a>
@@ -27,17 +27,17 @@
             <h1 class="Title Title-Large">OOP Concepts</h1>
         </header>
         <section class="content-section">
-        <img class="image_new" src="img\Encapsulation.png" alt="Encapsulation">
+        <img class="image_new" src="img/encapsulation.png" alt="encapsulation">
         <h2 class="section-header">Encapsulation</h2>
         <p>Encapsulation is one of the four fundamental concepts in object-oriented programming including abstraction, encapsulation,
            inheritance, and polymorphism. Encapsulation is the packing of data and functions that work on that data within a single
            object. By doing so, you can hide the internal state of the object from the outside. This is known as information hiding. In the
-           Calculator class, every instance of that class such as def get_history, def get_result_of_first_calculation, def get_result_of_last_calculation, etc.
-           are wrapped in that particular class. So, whatever the scope of these methods is limited to that class. This explains encapsulation
-           in the calculator program.</p>
+           class "main", every instance of that "class calculator" such as "self.result = self.result + value_a", "self.result = self.result - value_a"
+           for functions such as def add_number, def subtract_number etc. are wrapped in that particular class and may be hidden from other Classes in the program.
+           So, whatever the scope of these methods is limited to the object of that class. This explains encapsulation in the main program.</p>
         </section>
         <section class="content-section">
-        <img class="image_new" src="img\Polymorphism.png" alt="Polymorphism">
+        <img class="image_new" src="img/Polymorphism.png" alt="Polymorphism">
         <h2 class="section-header">Polymorphism</h2>
         <p>The word polymorphism means having many forms. In programming, polymorphism means the same function name (but different signatures)
             being used for different types. For example, In the calculator classes such as addition, subtraction, and multiplication,
@@ -45,15 +45,15 @@
             in the program wherein different instance of a function are being used for performing different operations.</p>
         </section>
         <section class="content-section">
-            <img class="image_new" src="img\Inheritance.png" alt="Inheritance">
+            <img class="image_new" src="img/Inheritance.png" alt="Inheritance">
             <h2 class="section-header">Inheritance</h2>
             <p>Inheritance in programming means when certain properties of a Class say Calculation are passed on to its child classes such
-                as Addition, Subtraction and Multiplication. Variables name may be initialized in the parent class and may be passed as reference
-                to its children for performing further operations. From the import function "calc.calculation" properties of that class in
+                as Addition, Subtraction and Multiplication. Variable names may be initialized in the parent class and may be passed as reference
+                to its children for performing further operations. From the import function "calc.calculation" properties of that class is
                 being derived in the subclasses.</p>
         </section>
         <section class="content-section">
-            <img class="image_new" src="img\abstraction.png" alt="Abstraction">
+            <img class="image_new" src="img/abstraction.png" alt="Abstraction">
             <h2 class="section-header">Abstraction</h2>
             <p>An abstract class can be considered as a blueprint for other classes. For example class Calculation,
                 which allows you to create a set of methods that must be created within any child classes (Addition, subtraction, and
