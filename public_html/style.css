@@ -104,66 +104,10 @@ p {
 
 }
 
-.about-image1 {
+.image_new {
     float: left;
-    height: 200px;
-    width: 280px;
-    margin: 15px;
-    border-radius: 0;
-}
-
-.about-image2 {
-    float: left;
-    height: 200px;
-    width: 280px;
-    margin: 15px;
-    border-radius: 0;
-}
-
-.about-image3 {
-    float: left;
-    height: 290px;
-    width: 280px;
-    margin: 15px;
-    border-radius: 0;
-}
-
-.about-image4 {
-    float: left;
-    height: 240px;
-    width: 280px;
-    margin: 15px;
-    border-radius: 0;
-}
-
-.about-image5 {
-    float: left;
-    height: 180px;
-    width: 320px;
-    margin: 15px;
-    border-radius: 0;
-}
-
-.about-image6 {
-    float: left;
-    height: 180px;
-    width: 320px;
-    margin: 15px;
-    border-radius: 0;
-}
-
-.about-image7 {
-    float: left;
-    height: 180px;
-    width: 320px;
-    margin: 15px;
-    border-radius: 0;
-}
-
-.about-image8 {
-    float: left;
-    height: 180px;
-    width: 320px;
+    height: 300px;
+    width: 480px;
     margin: 15px;
     border-radius: 0;
 }
