@@ -1,186 +1,222 @@
-@import url('https://fonts.googleapis.com/css?family=Sanserif');
-
-* {
-    box-sizing: border-box;
-    font-family: sans-serif;
-}
-
-html, body {
-    background-image: linear-gradient(to right,#158ff3,#5f1782);
-    margin: 0;
-    border: 0;
-    padding: 0;
-    overflow-x: hidden;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-}
-
-.nav ul{
-    margin: 0;
-}
-
-.nav li {
-    display: inline;
-}
-
-.nav a{
-    display: inline-block;
-    padding: 0.7em;
-    color: white;
-    text-decoration: none;
-
-}
-
-.main-nav{
-    text-align: right;
-    font-size: 1.1em;
-    font-weight: lighter;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-
-}
-
-.main-nav li{
-    margin:10px 0 ;
-}
-.nav a:hover{
-    background-color: rgba(255, 255, 255, 0.3);
-}
-
- .main-header {
-    background-image: linear-gradient(to right,#158ff3,#5f1782);
-    background-size: cover;
-    background-blend-mode: multiply;
-    padding-bottom: 0;
-}
-
-
- p {
-     text-align: justify;
-     text-justify: inter-word;
-     letter-spacing: 1px;
-     padding: 10px;
-     color: white;
-     font-family: Arial;
-     font-size: 16px;
-     margin: 10px;
- }
-
- .Title {
-     text-align: center;
-     margin: 0.3em 0 0;
-     font-size: 2em;
-     font-family: sans-serif;
-     font-weight: 300;
-     padding: 0;
-     color: white;
- }
-
- .content-section{
-     background-image: linear-gradient(to right,#158ff3,#5f1782);
-     margin: 0;
-     background-size: cover;
-     background-blend-mode: multiply;
-     padding: 0;
- }
-
- .container{
-     max-width: 900px;
-     margin: 0 auto;
-     padding: 0 1.5em;
- }
-
- .section-header{
-     display: block;
-     margin-block-start: 0.5em;
-     margin-block-end: 0;
-     margin-inline-start: 0;
-     margin-inline-end: 0;
-     font-family: sans-serif;
-     font-weight: normal;
-     color: white;
-     text-align: left;
-     font-size: 1.5em;
-
- }
-
-.about-image1 {
-    float: left;
-    height: 200px;
-    width: 280px;
-    margin: 15px;
-    border-radius: 0;
-}
-
-.about-image2 {
-    float: left;
-    height: 200px;
-    width: 280px;
-    margin: 15px;
-    border-radius: 0;
-}
-
-.about-image3 {
-    float: left;
-    height: 290px;
-    width: 280px;
-    margin: 15px;
-    border-radius: 0;
-}
-
-.about-image4 {
-    float: left;
-    height: 240px;
-    width: 280px;
-    margin: 15px;
-    border-radius: 0;
-}
-
-.about-image5 {
-    float: left;
-    height: 180px;
-    width: 320px;
-    margin: 15px;
-    border-radius: 0;
-}
-
-.about-image6 {
-    float: left;
-    height: 180px;
-    width: 320px;
-    margin: 15px;
-    border-radius: 0;
-}
-
-.about-image7 {
-    float: left;
-    height: 180px;
-    width: 320px;
-    margin: 15px;
-    border-radius: 0;
-}
-
-.about-image8 {
-    float: left;
-    height: 180px;
-    width: 320px;
-    margin: 15px;
-    border-radius: 0;
-}
-
-.img{
-    text-align: left;
-    float: left;
+*
+{
     margin:0;
-    padding: 0;
+    padding:0;
 }
-
-.bottom {
+body{
     background-image: linear-gradient(to right,#158ff3,#5f1782);
-    margin: 0;
-    background-size: cover;
-    background-blend-mode: multiply;
-    padding: 0;
+    font-family:sans-serif ;
+}
+.navbar-nav {
+    margin-left:auto;
+
+}
+#nav-bar
+{
+    position: sticky;
+    top:0;
+    z-index: 0;
+}
+.navbar
+{
+    background-image: linear-gradient(to right,#158ff3,#5f1782);
+    padding: 10px;
+}
+.navbar-brand img{
+    display: block;
+    /* Make sure max-width is added */
+    max-width: 100%;
+    height: 50px;
+}
+.navbar-nav li {
+    padding: 0 15px;
+}
+.navbar-nav li a {
+    color: #fff! important;
+    font-weight: 600;
+    float: right;
+    text-align: left;
+
+}
+.fa-arrow-down{
+    color:#fff;
+    font-size: 30px !important;
+}
+.navbar-toggler{
+    outline: none !important;
+}
+/* Banner Section */
+#banner{
+    background-image:linear-gradient(to right,#158ff3,#5f1782);
+    color:#fff;
+    padding-top: 5%;
+}
+.promo-title{
+
+    font-size: 40px;
+    font-weight: 60;
+    margin-top: 10px;
+    padding-left: 10px;
 }
 
+.play-btn{
+    width:45px;
+    margin:20px;
+}
+#banner a{
+    color:#fff;
+    text-decoration: none;
+}
+.image-fluid{
+    float:left;
+    width: 550px;
+    height: 350px;
+    margin-left: 0;
+    margin-bottom: 10px;
+}
 
+/* Services section */
+
+#services{
+    background-image: linear-gradient(to right,#158ff3,#5f1782);
+    padding: 30px 0;
+    color:white;
+}
+.service-img{
+    width: 300px;
+    height: 200px;
+    margin-top: 10px;
+
+
+}
+.services{
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    height: auto;
+}
+.services h4{
+    padding: 5px;
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+.title::before{
+    content:'';
+    background-color: #158ff3;
+    height: 5px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(63px);
+}
+.title::after{
+    content:'';
+    background-color: #158ff3;
+    height: 10px;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    display: block;
+    transform: translateY(8px);
+}
+#services .btn-primary{
+    box-shadow: none;
+    padding: 8px 25px;
+    border: 0;
+    border-radius: 20px;
+    background-image:linear-gradient(to right,#158ff3,#5f1782);
+    margin-top: 20px;
+}
+
+/* first page arp image */
+.arp{
+    color: #fff;
+    float: left;
+    padding: 10px;
+    width: 45%;
+}
+.part12{
+    float: left;
+    padding-left: 10px;
+    width: 50%;
+    padding-right:10px;
+}
+.part13{
+    color: #fff;
+}
+
+#pg11{
+    padding-bottom: 20px;
+}
+
+.altair{
+    color: #fff;
+    float: left;
+    padding: 10px;
+    width: 45%;
+}
+.part15{
+    float: left;
+    padding-left: 10px;
+    width: 50%;
+    padding-right:10px;
+}
+.part16{
+    color: #fff;
+    padding-bottom: 20px;
+}
+
+/* second page */
+
+.lawrence{
+    color: #fff;
+    float: left;
+    padding: 10px;
+    width: 45%;
+    height: 95%;
+}
+.part22{
+    float: left;
+    padding-left: 10px;
+    width: 50%;
+    padding-right:10px;
+}
+.part23{
+    color: #fff;
+}
+
+#pg21{
+    padding-bottom: 20px;
+}
+#pg22{
+    padding-bottom: 20px;
+}
+#pg23{
+    padding-bottom: 20px;
+}
+#pg24{
+    padding-bottom: 20px;
+}
+
+.altair{
+    color: #fff;
+    float: left;
+    padding: 10px;
+    width: 45%;
+}
+.part25{
+    float: left;
+    padding-left: 10px;
+    width: 50%;
+    padding-right:10px;
+}
+.part26{
+    color: #fff;
+    padding-bottom: 20px;
+}
+.same-old{
+    font-size: x-small;
+    color: white;
+}
