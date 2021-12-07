@@ -137,3 +137,8 @@ br {
     background-blend-mode: multiply;
     padding: 0;
 }
+
+.same-old{
+    font-size: small;
+    color: white;
+}
